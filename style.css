@@ -1,0 +1,101 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin-top: 200px;
+    width: 300px;
+    height: 100px;
+}
+
+.searchbar {
+    margin-top: 2em;
+    height: 30px;
+    width: 550px;
+    border: 2px solid rgb(231, 226, 233);
+    border-radius: 50px;
+    outline: none;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 670px;
+    margin-right: auto;
+    top: 50.6%;
+    bottom: auto;
+    color: rgb(152, 149, 153);
+}
+
+.mic-icon {
+    position: absolute;
+    margin-left: auto;
+    right: 670px;
+    top: 50.6%;
+    bottom: auto;
+    color: rgb(152, 149, 153);
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a {
+    text-decoration: none; 
+    color: rgb(95, 93, 93);
+    font-size: 14px;
+    padding: 10px;
+}
+
+.apps {
+    position: absolute;
+    left: 94%;
+    bottom: 95%;
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+}
+
+.account {
+    position: absolute;
+    font-size: 2em;
+    left: 96.5%;
+    bottom: 94.5%;
+    color: rgb(95, 93, 93);
+}
+
+.btn {
+    border: none;
+    background-color: rgba(247, 245, 245, 0.726);
+    padding: 10px 14px;
+    margin: 10px;
+    font-size: 80%;
+    border-radius: 5px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #eee;
+}
+
+.footer-elements {
+    position: absolute;
+    right: 0px;
+    width: 1920px;
+    bottom: 0;
+    background-color: #eee;
+}
