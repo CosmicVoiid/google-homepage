@@ -2,7 +2,7 @@
 
 <html>
     <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
 
     <style>
     .center {
@@ -21,7 +21,7 @@
         margin-top: 2em;
         height: 30px;
         width: 550px;
-        border: 2px solid rgb(204, 199, 206);
+        border: 2px solid rgb(231, 226, 233);
         border-radius: 50px;
         outline: none;
         padding: 10px;
@@ -29,22 +29,80 @@
         font-size: 15px;
     }
 
-    .icon {
+    .search-icon {
         position: absolute;
         left: 670px;
-        right: 0px;
-        top: 346px;
-        bottom: 0px;
-        color: rgb(105, 101, 107);
+        margin-right: auto;
+        top: 50.6%;
+        bottom: auto;
+        color: rgb(152, 149, 153);
     }
-    
+
+    .mic-icon {
+        position: absolute;
+        margin-left: auto;
+        right: 670px;
+        top: 50.6%;
+        bottom: auto;
+        color: rgb(152, 149, 153);
+    }
+
+    .navbar{
+        height: 100px;
+        width: 100%;
+    }
+    ul {
+        list-style-type: none;
+
+    }
+
+    li {
+        display: inline;
+    }
+
+    li a {
+        text-decoration: none; 
+        color: rgb(95, 93, 93);
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .apps {
+        position: absolute;
+        left: 94%;
+        bottom: 95%;
+        text-decoration: none;
+        color: rgb(95, 93, 93);
+    }
+
+    .account {
+        position: absolute;
+        font-size: 2em;
+        left: 96.5%;
+        bottom: 94.5%;
+        color: rgb(95, 93, 93);
+    }
     </style>
 
     </head>
 
     <body>
-        <img class="center logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        <input class="center searchbar" type="text">
-        <span class = "material-icons icon">search</span>
+        <div class="navbar">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href=""style="float: right; margin-right: 120px">Gmail</a></li>
+                <li><a href="" style="float: right;">Images</a></li>
+            </ul>
+            <a href=""><span class="material-icons-outlined apps">apps</span></a>
+            <span class="material-icons-outlined account">account_circle</span>
+        </div>
+
+        <div class="center-elements">
+            <img class="center logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            <input class="center searchbar" type="text">
+            <span class = "material-icons-outlined search-icon">search</span>
+            <span class="material-icons-outlined mic-icon">mic</span>
+        </div>
     </body>
 </html>
